@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!--  Esse é um comentário de uma linha -->
+<html lang="pt-BR"> <!--  idioma da nossa página -->
+<head> <!--  Carrega primeiro que a página -->
+    <meta charset="UTF-8"> <!--  idioma do teclado ou caracteres  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- visulizar no celular com zoom -->
+    <title> Facebook </title> <!--  Titulo da Aba -->
+</head>
+<body>
+    <style>
+        body {
+            width: 100%; /* percentual, px */
+            margin: 0 auto;
+            display: flex;
+        }
+        div {
+            margin: 10px; /* espaçamento entre os quatros lados */
+            height: 600px; /* define uma altura para meu elemento */
+            width: 600px; /* define uma largura para meu elemento */
+            padding-left: 100px;
+
+        }
+        #esquerda {
+            display: flex; /* torna os elementos flexiveis*/
+            flex-direction: column; /* coloca os elementos um debaixo do outro exemplo: row */
+        }
+        #img1{
+            width: 100px; /* largura do elemento */
+            margin-top: 50px; /* espaçamento na parte superior */
+            margin-bottom: 20px; /* espaçamento na parte inferior */
+        }
+        #img2{
+            width: 300px; /* largura do elemento*/
+        }
+        h2{
+            color: red;
+            letter-spacing: 1px;
+        }
+    </style>
+
+    <div id="esquerda" >
+        <img id="img1" src="./image-small.png" alt="">
+        
+        <h2>teus amigos chegados.</h2>
+        <h2>Vê os momentos do dia a dia dos</h2>
+        
+        <img id="img2" src="./image-big.png" alt="">
+        
+
+    </div>
+
+    <div id="direita" >
+    </div>
+
+</body>
+
+</html>
